@@ -7,12 +7,12 @@ Here is my python source code for training an agent to play super mario bros. By
   <img src="demo/video_1_1.gif">
   <img src="demo/video_1_2.gif">
   <img src="demo/video_1_4.gif"><br/>
-<!--   <img src="demo/video_2_3.gif">
+  <img src="demo/video_2_3.gif">
   <img src="demo/video_3_1.gif">
   <img src="demo/video_3_4.gif"><br/>
   <img src="demo/video_4_1.gif">
   <img src="demo/video_6_1.gif">
-  <img src="demo/video_7_1.gif"><br/> -->
+  <img src="demo/video_7_1.gif"><br/>
   <i>Sample results</i>
 </p>
 
