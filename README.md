@@ -1,4 +1,4 @@
-# [PYTHON] Asynchronous Actor-Critic Agents (A3C) for playing Super Mario Bros
+# [PYTORCH] Asynchronous Actor-Critic Agents (A3C) for playing Super Mario Bros
 
 ## Introduction
 
