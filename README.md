@@ -1,11 +1,19 @@
-# [PYTHON] Deep Q-learning for playing Flappy Bird
+# [PYTHON] Asynchronous Actor-Critic Agents (A3C) for playing Super Mario Bros
 
 ## Introduction
 
-Here is my python source code for training an agent to play flappy bird. It could be seen as a very basic example of Reinforcement Learning's application.
+Here is my python source code for training an agent to play super mario bros. By using Asynchronous Actor-Critic Agents (A3C) algorithm introduced in the paper **Asynchronous Methods for Deep Reinforcement Learning** [paper](https://arxiv.org/abs/1602.01783).
 <p align="center">
-  <img src="demo/flappybird.gif" width=600><br/>
-  <i>Camera app demo</i>
+  <img src="demo/video_1_1.gif">
+  <img src="demo/video_1_2.gif">
+  <img src="demo/video_1_4.gif"><br/>
+  <img src="demo/video_2_3.gif">
+  <img src="demo/video_3_1.gif">
+  <img src="demo/video_3_4.gif"><br/>
+  <img src="demo/video_4_1.gif">
+  <img src="demo/video_6_1.gif">
+  <img src="demo/video_7_1.gif">
+  <i>Sample results</i>
 </p>
 
 ## How to use my code
@@ -16,12 +24,12 @@ With my code, you can:
 
 ## Trained models
 
-You could find my trained model at **trained_models/flappy_bird**
+You could find my trained model at **trained_models/**
  
 ## Requirements
 
 * **python 3.6**
-* **pygame**
+* **gym**
 * **cv2**
 * **pytorch** 
 * **numpy**
