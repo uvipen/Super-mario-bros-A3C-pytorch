@@ -18,12 +18,12 @@ Here is my python source code for training an agent to play super mario bros. By
 
 ## Motivation
 
-Before I implemented this projects, there are several repositories reproducing the paper's result quite well, in different common deep learning frameworks such as Tensorflow, Keras and Pytorch. In my opinion, most of them are great. However, they seem to be overly complicated in many parts including image's pre-processing, environtment setup and weight initialization, which distracts user's attention from more important matters. Therefore, I decide to write a cleaner code, which simplifies trivial parts, while still follow strictly the paper.
+Before I implemented this project, there are several repositories reproducing the paper's result quite well, in different common deep learning frameworks such as Tensorflow, Keras and Pytorch. In my opinion, most of them are great. However, they seem to be overly complicated in many parts including image's pre-processing, environtment setup and weight initialization, which distracts user's attention from more important matters. Therefore, I decide to write a cleaner code, which simplifies trivial parts, while still follow strictly the paper. As you could see, with minimal setup and simple network's initialization, as long as you implement the algorithm correctly, agent will teach itself how to interact with environment and find out the way to reach the final goal.
 
 ## How to use my code
 
 With my code, you can:
-* **Train your model from scratch** by running **python train.py**
+* **Train your model** by running **python train.py**
 * **Test your trained model** by running **python test.py**
 
 ## Trained models
