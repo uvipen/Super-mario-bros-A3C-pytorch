@@ -1,8 +1,8 @@
-# [PYTORCH] Asynchronous Actor-Critic Agents (A3C) for playing Super Mario Bros
+# [PYTORCH] Asynchronous Advantage Actor-Critic (A3C) for playing Super Mario Bros
 
 ## Introduction
 
-Here is my python source code for training an agent to play super mario bros. By using Asynchronous Actor-Critic Agents (A3C) algorithm introduced in the paper **Asynchronous Methods for Deep Reinforcement Learning** [paper](https://arxiv.org/abs/1602.01783).
+Here is my python source code for training an agent to play super mario bros. By using Asynchronous Advantage Actor-Critic (A3C) algorithm introduced in the paper **Asynchronous Methods for Deep Reinforcement Learning** [paper](https://arxiv.org/abs/1602.01783).
 <p align="center">
   <img src="demo/video_1_1.gif">
   <img src="demo/video_1_2.gif">
@@ -22,6 +22,10 @@ Before I implemented this project, there are several repositories reproducing th
 
 ## Explanation in layman's term
 If you are already familiar to reinforcement learning in general and A3C in particular, you could skip this part. I write this part for explaining what is A3C algorithm, how and why it works, to people who are interested in or curious about A3C or my implementation, but do not understand the mechanism behind. Therefore, you do not need any prerequiste knowledge for reading this part :relaxed:
+If you search on the internet, there are numerous article introducing or explaining A3C, some even provide sample code. However, I would like to take another approach: Break down the name **Asynchronous Actor-Critic Agents** into smaller parts and explain in an aggregated manner:
+
+# Actor-Critic
+Your agent has 2 parts called **actor** and **critic**, and its goal is to make both parts perfom better over time by exploring and exploiting the environment. Let imagine a small mischievous child (**actor**) is discovering the amazing world around him, while his dad (**critic**) oversees him, to make sure that he does not do anything dangerous. Whenever the kid do anything good, his dad will praise and encourage him. And of course, when the kid do anything harmful, he will get warning from his dad.
 
 ## How to use my code
 
