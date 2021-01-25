@@ -4,15 +4,25 @@
 
 Here is my python source code for training an agent to play super mario bros. By using Asynchronous Advantage Actor-Critic (A3C) algorithm introduced in the paper **Asynchronous Methods for Deep Reinforcement Learning** [paper](https://arxiv.org/abs/1602.01783).
 <p align="center">
-  <img src="demo/video_1_1.gif">
-  <img src="demo/video_1_2.gif">
-  <img src="demo/video_1_4.gif"><br/>
-  <img src="demo/video_2_3.gif">
-  <img src="demo/video_3_1.gif">
-  <img src="demo/video_3_4.gif"><br/>
-  <img src="demo/video_4_1.gif">
-  <img src="demo/video_6_1.gif">
-  <img src="demo/video_7_1.gif"><br/>
+  <img src="demo/video_1_1.gif" width="200">
+  <img src="demo/video_1_2.gif" width="200">
+  <img src="demo/video_1_4.gif" width="200">
+  <img src="demo/video_2_1.gif" width="200"><br/>
+  <img src="demo/video_2_2.gif" width="200">
+  <img src="demo/video_2_3.gif" width="200">
+  <img src="demo/video_2_4.gif" width="200">
+  <img src="demo/video_3_1.gif" width="200"><br/>
+  <img src="demo/video_3_2.gif" width="200">
+  <img src="demo/video_3_3.gif" width="200">
+  <img src="demo/video_3_4.gif" width="200">
+  <img src="demo/video_4_1.gif" width="200"><br/>
+  <img src="demo/video_5_1.gif" width="200">
+  <img src="demo/video_6_1.gif" width="200">
+  <img src="demo/video_6_3.gif" width="200">
+  <img src="demo/video_7_1.gif" width="200"><br/>
+  <img src="demo/video_7_3.gif" width="200">
+  <img src="demo/video_8_2.gif" width="200">
+  <img src="demo/video_8_3.gif" width="200">
   <i>Sample results</i>
 </p>
 
@@ -51,3 +61,6 @@ You could find some trained models I have trained in [Super Mario Bros A3C train
 * **cv2**
 * **pytorch** 
 * **numpy**
+
+## Acknowledgements
+At the beginning, I could only train my agent to complete 9 stages. Then @davincibj pointed out that 19 stages could be completed and sent me the trained weights. Thank you a lot for the finding!
