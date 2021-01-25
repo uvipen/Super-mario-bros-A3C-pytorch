@@ -22,7 +22,7 @@ Here is my python source code for training an agent to play super mario bros. By
   <img src="demo/video_7_1.gif" width="200"><br/>
   <img src="demo/video_7_3.gif" width="200">
   <img src="demo/video_8_2.gif" width="200">
-  <img src="demo/video_8_3.gif" width="200">
+  <img src="demo/video_8_3.gif" width="200"><br/>
   <i>Sample results</i>
 </p>
 
